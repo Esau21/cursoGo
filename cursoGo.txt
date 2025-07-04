@@ -1,0 +1,8 @@
+/**Curso de Golang **/
+
+Preparamos el ambiente para Golang
+
+ejecutamos: go run main.go para poder correr nuestro programa
+
+
+formas para declarar variables en Go
