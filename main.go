@@ -35,4 +35,12 @@ func main() {
 	listPaises = append(listPaises, "El salvador")
 
 	fmt.Println(listPaises)
+
+	listaPaises2 := listPaises[1:3]
+
+	fmt.Println(listaPaises2)
+
+	listaPaises3 := listPaises[2:]
+
+	fmt.Println(listaPaises3)
 }
