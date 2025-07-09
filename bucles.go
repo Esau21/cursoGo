@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 func main() {
 	/* var suma int = 0
@@ -27,11 +30,16 @@ func main() {
 	var fruta string = ""
 
 	for {
-		if fruta == "melon" {
-			fmt.Println("Excelete as accedido a la fruta naranja")
-			break
-		}
-		fmt.Println("Indica tu fruta de preferencia")
+		fmt.Println("Indica tu fruta esperada")
 		fmt.Scan(&fruta)
+
+		fruta = strings.ToLower(fruta)
+
+		if fruta == "melon" {
+			fmt.Println("Excelete as accedido a la fruta: " + fruta)
+			break
+		} else {
+			fmt.Println("No es la fruta correcta")
+		}
 	}
 }
