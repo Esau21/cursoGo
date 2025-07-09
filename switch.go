@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func switchw() {
 	var fruta string
 	fmt.Println("Ingresa valores alfa numericos")
 	fmt.Scan(&fruta)
