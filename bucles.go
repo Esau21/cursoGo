@@ -1,10 +1,5 @@
 package main
 
-import (
-	"fmt"
-	"strings"
-)
-
 func main() {
 	/* var suma int = 0
 	for i := 0; i <= 100; i++ {
@@ -27,9 +22,10 @@ func main() {
 			fmt.Println("La captital de " + k + " es " + v)
 		} */
 
-	var fruta string = ""
+	/* var fruta string = "" */
 
-	for {
+	/* usode while en go */
+	/* for {
 		fmt.Println("Indica tu fruta esperada")
 		fmt.Scan(&fruta)
 
@@ -41,5 +37,5 @@ func main() {
 		} else {
 			fmt.Println("No es la fruta correcta")
 		}
-	}
+	} */
 }
