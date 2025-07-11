@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-func main() {
+func calculadora() {
 	fmt.Println("Bienvenidos a mi calculadora")
 
 	reader := bufio.NewReader(os.Stdin)
